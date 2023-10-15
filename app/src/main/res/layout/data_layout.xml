@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:id="@+id/tv_id"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:id="@+id/tv_userId"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="my title"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/tv_title"
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="my body"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/tv_body"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
